@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+}
+li{
+    font-size:1.3rem;
+}
+
+.row.dish-details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+@media screen and (max-width:900px){
+    .row.dish-details{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
